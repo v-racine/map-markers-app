@@ -1,10 +1,6 @@
 import { faker } from "@faker-js/faker";
 
-<<<<<<< HEAD
-class User {
-=======
 export class User {
->>>>>>> b4cd273 (fix: ignore large files)
   name: string;
   location: {
     lat: number;
