@@ -1,0 +1,22 @@
+{
+  "name": "map-markers-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v-racine/map-markers-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/v-racine/map-markers-app/issues"
+  },
+  "homepage": "https://github.com/v-racine/map-markers-app#readme",
+  "dependencies": {
+    "@faker-js/faker": "7.6.0"
+  }
+}
