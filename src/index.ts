@@ -1,1 +1,4 @@
-import { faker } from "@faker-js/faker";
+import { User } from "./User";
+
+const user = new User();
+console.log(user);
