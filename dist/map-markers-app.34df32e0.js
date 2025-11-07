@@ -714,8 +714,7 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"gH3Lb":[function(require,module,exports,__globalThis) {
-console.log("Hello world!");
 
-},{}]},["i297Q","gH3Lb"], "gH3Lb", "parcelRequire94c2", {})
+},{}]},["i297Q","gH3Lb"], "gH3Lb", "parcelRequireac01", {})
 
 //# sourceMappingURL=map-markers-app.34df32e0.js.map
