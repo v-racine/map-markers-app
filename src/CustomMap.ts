@@ -5,7 +5,12 @@ export class CustomMap {
   private googleMap: google.maps.Map;
 
   constructor(divId: string) {
-    this.googleMap = new google.maps.Map(document.getElementById(divId)!, {
+    const element = document.getElementById(divId);
+    if (!element) {
+      throw new Error(`Map element with id '${divId}' not found.`);
+    }
+
+    this.googleMap = new google.maps.Map(element, {
       zoom: 1,
       center: {
         lat: 0,
