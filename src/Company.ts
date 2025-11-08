@@ -19,11 +19,9 @@ export class Company implements Mappable {
   }
 
   markerContent(): string {
-    return `
-    <div>
+    return `<div>
       <h2>Company Name: ${this.companyName}</h2>
       <h3>Catch phrase: ${this.catchPhrase}</h3>
-    </div>
-    `;
+    </div>`;
   }
 }
