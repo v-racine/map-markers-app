@@ -2,6 +2,7 @@
 
 import { User } from "./User";
 import { Company } from "./Company";
+import { CustomMap } from "./CustomMap";
 
 const user = new User();
 console.log(user);
@@ -9,15 +10,6 @@ console.log(user);
 const company = new Company();
 console.log(company);
 
-const mapDiv = document.getElementById("map");
-if (mapDiv) {
-  new google.maps.Map(mapDiv, {
-    zoom: 1,
-    center: {
-      lat: 0,
-      lng: 0,
-    },
-  });
-} else {
-  console.error("Map element not found.");
-}
+const customMap = new CustomMap("map");
+
+customMap.addUserMarker(user);
