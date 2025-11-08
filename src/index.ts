@@ -9,10 +9,15 @@ console.log(user);
 const company = new Company();
 console.log(company);
 
-new google.maps.Map(document.getElementById("map")!, {
-  zoom: 1,
-  center: {
-    lat: 0,
-    lng: 0,
-  },
-});
+const mapDiv = document.getElementById("map");
+if (mapDiv) {
+  new google.maps.Map(mapDiv, {
+    zoom: 1,
+    center: {
+      lat: 0,
+      lng: 0,
+    },
+  });
+} else {
+  console.error("Map element not found.");
+}
